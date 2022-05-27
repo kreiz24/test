@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Win10_Game_OS\\MyApp\\MyApp.csproj",
+      "projectUniqueName": "E:\\git\\test\\MyApp.csproj",
       "projectName": "MyApp",
-      "projectPath": "C:\\Users\\Win10_Game_OS\\MyApp\\MyApp.csproj",
+      "projectPath": "E:\\git\\test\\MyApp.csproj",
       "packagesPath": "C:\\Users\\Win10_Game_OS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Win10_Game_OS\\MyApp\\obj\\",
+      "outputPath": "E:\\git\\test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Win10_Game_OS\\AppData\\Roaming\\NuGet\\NuGet.Config"

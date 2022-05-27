@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4jArhtZO3mJyMRN/8lvJzaVy0V2zD4K6YbL4W/cbUKCC+hikaFlftAtDbOSPQiY4gXawN3lPhh2DflIVK//hNw==",
+  "dgSpecHash": "ONQr0u4wHZjgSxL7uomN3P29rN6rdAv5ISeUmwjBf84rVLxcIym/Qq4gmdM6HIuOjcW2qi4B/v+dVP7LOjJQcg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Win10_Game_OS\\MyApp\\MyApp.csproj",
+  "projectFilePath": "E:\\git\\test\\MyApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
