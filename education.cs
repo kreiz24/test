@@ -8,7 +8,7 @@ namespace EducationNumOne
         static void Main(string[] args)
         {
        
-         System.Console.WriteLine("Helllo World");
+         System.Console.WriteLine(" World");
            
         }
         
