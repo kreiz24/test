@@ -1,0 +1,114 @@
+Console.WriteLine("please enter your full name");
+      string name = Console.ReadLine();
+      Console.WriteLine("please enter your full age");
+      int Age = int.Parse(Console.ReadLine());
+      Console.WriteLine("please enter your full weight");
+      int Weight = int.Parse(Console.ReadLine());
+      Console.WriteLine("please enter your full height");
+      int Height =  int.Parse(Console.ReadLine());
+      int BMI = Weight/Height/100 * Height/100 ;
+      Console.WriteLine(BMI+"");  
+      int stop = int.Parse(Console.ReadLine());  
+      Console.WriteLine($" {stop}");
+      Console.WriteLine("please enter your full height");
+
+      //This is the way to build a pyramid
+      int L=5, i , j, num = 1 , grap;
+      grap= L - 1;
+        for (j = 1; j <=L; j++)
+        {
+        num = j;
+        for (i =1; i<=grap; i++)
+          Console.Write(" ");
+        grap --;
+        for(i=1; i<=j ; i ++)
+          {
+            Console.Write(num);
+            num++;
+          }
+          num--;
+          num--;
+        for(i =1;i<j;i++)
+          {
+          System.Console.Write(num);
+          num--;
+          }
+          Console.WriteLine();
+        }
+        
+            System.Console.WriteLine("Lets calculate the square of a triangle");
+            double ab = GetDouble();
+
+            Console.WriteLine("bc");
+            double bc = GetDouble();
+
+            Console.WriteLine("ac");
+            double ac = GetDouble();
+
+            double p = ab + bc + ac / 2;
+
+            double square = Math.Sqrt(p * (p - ab) * (p - bc) * (p - ac));
+            System.Console.WriteLine($"{square}");
+  //this is fibanacci numbers  generate
+               Console.WriteLine("enter the number of fibanacci numbers you want to generate");
+            int n= int.Parse(Console.ReadLine());
+
+            int[] fibinacci = new int[n];
+            int a0 = 0;
+            int a1 = 1;
+            
+            fibinacci[0] = a0;
+            fibinacci[1] = a1;
+
+            for(int i = 2; i < n; i++)
+            {
+                int a = a0 + a1;
+                fibinacci[i] = a;
+
+                a0= a1;
+                a1 = a;
+                foreach(int cur in fibinacci)
+                {
+                    System.Console.WriteLine(cur);
+                }
+            }
+            Console.ReadLine();
+//num sred
+             static void Main(string[] args)
+        {
+       int [] numbers  = new int[10];
+
+       int inputCount = 0;
+
+       while(inputCount < 10)
+       {
+            int number = int.Parse(Console.ReadLine());
+            numbers [inputCount] = number;
+
+            inputCount++;
+
+            if(number == 0)
+            break;
+       }
+       int sum = 0;
+       int count = 0;
+       
+       foreach(int n in numbers)
+       {
+        if(n > 0 && n % 3 == 0)
+        {
+            sum +=n;
+            count++;
+        }
+       }
+       double avereage = (double)sum/ count;
+       Console.WriteLine(avereage);
+     //factorial
+     int n = int.Parse(Console.ReadLine());
+            long factorial = 1;
+            for(int i = 1; i <=n; i++ )
+            {
+                factorial *=i;
+            }
+            System.Console.WriteLine(factorial);
+    }   

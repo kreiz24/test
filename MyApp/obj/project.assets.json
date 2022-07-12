@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\git\\test\\MyApp.csproj",
+      "projectUniqueName": "F:\\git\\test\\MyApp\\MyApp.csproj",
       "projectName": "MyApp",
-      "projectPath": "E:\\git\\test\\MyApp.csproj",
+      "projectPath": "F:\\git\\test\\MyApp\\MyApp.csproj",
       "packagesPath": "C:\\Users\\Win10_Game_OS\\.nuget\\packages\\",
-      "outputPath": "E:\\git\\test\\obj\\",
+      "outputPath": "F:\\git\\test\\MyApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Win10_Game_OS\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
