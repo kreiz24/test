@@ -7,16 +7,10 @@ namespace EducationNumOne
     {
         static void Main(string[] args)
         {
-            string openpl = "johnsilver qwerty";
-            string pl;
-            int attempts = 1;
-        Console.WriteLine("please enter your Login Password");
-         pl = System.Console.ReadLine();
-        while(attempts <=3)
-        {
-            Console.WriteLine("Enter login pass");
-            Console.ReadLine();
-        }
+        Character c = new Character();
+        c.Hit(10);
+        
+        Console.WriteLine(c.Health);
         }
     }
 }
