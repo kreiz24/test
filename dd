@@ -74,8 +74,7 @@ Console.WriteLine("please enter your full name");
             }
             Console.ReadLine();
 //num sred
-             static void Main(string[] args)
-        {
+            1
        int [] numbers  = new int[10];
 
        int inputCount = 0;
@@ -111,4 +110,25 @@ Console.WriteLine("please enter your full name");
                 factorial *=i;
             }
             System.Console.WriteLine(factorial);
+            //Login ant pass
+               {
+            string Login = "johnsilver";
+            string Pass = "qwerty";
+            string p;
+            string l;
+            int attempts = 3;
+        while(attempts !=0)
+        {
+            Console.WriteLine("Enter  Login");
+            l = Console.ReadLine();
+            Console.WriteLine("Enter  pass");
+            p = Console.ReadLine();
+            if(l == Login && p == Pass)
+            {
+                Console.WriteLine($"welcome {Login}");
+                break;
+            }
+                attempts--;  
+            System.Console.WriteLine($"wrong Login or password. You have {attempts} attempts left");
+        }
     }   
